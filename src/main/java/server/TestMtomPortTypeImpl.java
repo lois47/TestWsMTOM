@@ -28,8 +28,6 @@ import javax.jws.WebService;
 import javax.mail.util.ByteArrayDataSource;
 import javax.xml.ws.Holder;
 
-import org.apache.cxf.mime.TestMtomPortType;
-
 @WebService(serviceName = "TestMtomService",
                 portName = "TestMtomPort",
                 endpointInterface = "org.apache.cxf.mime.TestMtomPortType",

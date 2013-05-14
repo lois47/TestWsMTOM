@@ -34,7 +34,7 @@ import javax.xml.ws.BindingProvider;
 import javax.xml.ws.Holder;
 import javax.xml.ws.soap.SOAPBinding;
 
-import org.apache.cxf.mime.TestMtomPortType;
+import server.*;
 import org.apache.cxf.mime.TestMtomService;
 
 public final class Client {
